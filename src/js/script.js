@@ -3,7 +3,7 @@ const prompt = require("prompt-sync")();
 let name = prompt("Enter Your Name: ");
 let weeklyBudget = parseInt(prompt("Enter Weekly Budget: "));
 
-const calculateDaily = (total) => {
+function calculateDaily(total){
     return total/7;
 }
 
